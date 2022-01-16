@@ -1,0 +1,88 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-menu ul li a {
+        padding: 15px 11px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .logo img {
+        width: 100px;
+    }
+    .language {
+        display: none;
+    }
+    .main-menu ul li a {
+        padding:15px;
+    }
+    .map-content h2 {
+        font-size: 25px;
+    }
+    .single-map-icon img {
+        width: 50px;
+    }
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .language {
+        display: none;
+    }
+    .banner-content h1 {
+        font-size: 25px;
+    }
+    .banner-area {
+        min-height: 500px;
+    }
+    .banner-btn a img {
+        width: 140px;
+    }
+    .banner-btn a {
+        margin-right: 0;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .feature-content h4 {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .footer-widget h4 {
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .section-title.mt-200 {
+        margin-top: 100px;
+    }
+    .service-items {
+        margin-top: -310px;
+    }
+    .service-item {
+        margin-bottom: 20px;
+    }
+    .map-content {
+        margin-left: 0;
+        padding-bottom:0
+    }
+    .map-iphone {
+        display: none;
+    }
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
